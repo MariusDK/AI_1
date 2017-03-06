@@ -62,6 +62,7 @@ public class Application {
         }
 
         Map.Entry maxEntry = null;
+        //Se poate parcurge fara iterator...nu suntem in epoc pietrei
         Iterator it = counter.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
